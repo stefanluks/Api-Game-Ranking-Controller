@@ -1,6 +1,6 @@
 //Importando a biblioteca responsavel por fazer essa conexão com o banco de dados
 const Sequelize = require("sequelize");
-const UserBanco = require("user-db.js");
+const UserBanco = require("/etc/secrets/user-db.js");
 
 // Objeto com as informações do banco de dados de teste
 const UserBanco = {
