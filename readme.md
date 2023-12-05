@@ -1,0 +1,3 @@
+## Api Game Ranking Controller
+---
+
