@@ -2,13 +2,6 @@
 const Sequelize = require("sequelize");
 const UserBanco = require("user-db.js");
 
-// Objeto com as informações do banco de dados de teste
-const UserBanco = {
-    nome: "apicontroller",
-    usuario: "root",
-    senha: "sLas@crp2023"
-}
-
 //Criando a instância do Sequelize que recebe as informações do banco para realizar a conexão
 const banco = new Sequelize(UserBanco.nome, UserBanco.usuario, UserBanco.senha, {
     host: "localhost",
